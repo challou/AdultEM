@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "options(catmaid.server=\"https://neuropil.janelia.org/tracing/fafb/v12\",\n  catmaid.authname=\"fly\",catmaid.authpassword=\"superfly\",\n  catmaid.token=\"600059794e22c80bace1fe8872cdd3d0ba7a1a61\")\n  \n\n\n",
+    "created" : 1480694774866.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "764953995",
+    "id" : "739E0002",
+    "lastKnownWriteTime" : 1480681796,
+    "last_content_update" : 1480694790488,
+    "path" : "~/.Rprofile",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

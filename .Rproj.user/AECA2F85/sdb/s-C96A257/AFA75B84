@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(catmaid)\nneurons=read.neurons.catmaid(\"name:ASB\", OmitFailures= T)\nlength(neurons)\nhead(neurons)\nas.data.frame(neurons)\nneuron=read.neuron.catmaid(30591)\n\nplot3d(neurons, soma = 2000, WithConnectors = T)\nopen3d()\nplot3d(neuron)\n\ngood_soma=sapply (neurons, function(x) !is.null(x$tags$soma)) \n                  good.neurons = neurons[good_soma ] \n                  \n                  \nclear3d()\nplot3d(good.neurons, soma = 2000, WithConnectors = T)\nstr(neuron)\nnode.data = neuron$d\npoints3d = node.data[,c(\"X\",\"Y\",\"Z\")]\nclear3d()\npoints3d(points3d, col = 'red')\n                  ",
+    "created" : 1480682499150.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3995462218",
+    "id" : "AFA75B84",
+    "lastKnownWriteTime" : 1480683113,
+    "last_content_update" : 1480684870405,
+    "path" : "~/projects/Adult EM/script.R",
+    "project_path" : "script.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
